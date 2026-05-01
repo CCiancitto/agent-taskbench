@@ -39,6 +39,7 @@ Run the bundled examples from the repo root:
 ```bash
 ./scripts/run_validation.sh examples/python_bugfix
 ./scripts/run_validation.sh examples/spec_drift_guard
+./scripts/run_all_validations.sh
 ```
 
 If you want to inspect a benchmark example, open the files in its folder:
@@ -103,10 +104,9 @@ Possible next steps after v0.1:
 - add more example tasks in different languages
 - standardize machine-readable results
 - add a simple summary generator
-- add batch execution across all examples
+- add richer batch reporting across all examples
 - add scoring metadata for benchmark comparison
 
 ## Portfolio Positioning
 
 AgentTaskBench is meant to read like a practical systems-and-evaluation project, not a toy demo. It shows that the author can define success criteria, build validation around them, and design for failure detection instead of demo theater. For hiring managers and AI engineering teams, that signals good judgment, strong workflow thinking, and a bias toward measurable outcomes.
-
